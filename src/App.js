@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>Counter App</h1>
-        <h2>Count:{this.state.count}</h2>
+        <h2>Count: {this.state.count}</h2>
         <div className="counter_btn">
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
